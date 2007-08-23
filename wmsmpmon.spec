@@ -1,7 +1,7 @@
 Summary:  System information for Dual CPUs (memory, swap, cpu, IO) in a small dock app
 Name:		wmsmpmon
 Version: 2.3
-Release: %mkrel 2
+Release: %mkrel 3
 License:	GPL
 Group:		Graphical desktop/WindowMaker
 Source0:	%{name}-%{version}.tar.bz2
