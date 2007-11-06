@@ -2,8 +2,8 @@
 Summary:	%Summary
 Name:		wmsmpmon
 Version:	3.1
-Release:	%mkrel 1
-License:	GPL
+Release:	%mkrel 2
+License:	GPLv2+
 Group:		Graphical desktop/WindowMaker
 Source0:	wmSMPmon-%{version}.tar.gz
 Source1:	%{name}-icons.tar.bz2
