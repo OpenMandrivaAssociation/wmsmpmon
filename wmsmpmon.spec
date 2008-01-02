@@ -12,6 +12,7 @@ BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel
 BuildRequires:	libxau-devel
 BuildRequires:	libxdmcp-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Monitor your dual processor system, memory, swap, and IOs in a small
