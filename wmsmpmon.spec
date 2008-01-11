@@ -44,13 +44,6 @@ install -m 644 wmSMPmon/wmSMPmon.1 %buildroot%{_mandir}/man1/
 
 chmod 644 {GREETINGS,LISEZ-MOI,COPYING}
 
-install -m 755 -d %buildroot%{_menudir}
-cat << EOF > %buildroot%{_menudir}/%{name}
-?package(%{name}):command="%{_bindir}/wmSMPmon -g 3" icon="%{name}.png"\\
-                 needs="X11" section="System/Monitoring" title="wmSMPmon"\\
-                 longtitle="%Summary"\\
-                 xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -84,6 +77,5 @@ rm -rf %buildroot
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_mandir}/man1/wmSMPmon.1.*
