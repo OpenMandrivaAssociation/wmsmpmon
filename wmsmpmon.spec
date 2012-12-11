@@ -83,3 +83,60 @@ rm -rf %buildroot
 %{_iconsdir}/%{name}.png
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_mandir}/man1/wmSMPmon.1.*
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.1-6mdv2010.0
++ Revision: 434896
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.1-5mdv2009.0
++ Revision: 262089
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.1-4mdv2009.0
++ Revision: 256261
+- rebuild
+- drop old menu
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Nov 06 2007 Funda Wang <fundawang@mandriva.org> 3.1-2mdv2008.1
++ Revision: 106462
+- rebuild for new lzma
+
+* Fri Sep 14 2007 Gustavo De Nardin <gustavodn@mandriva.com> 3.1-1mdv2008.1
++ Revision: 85711
+- new version 3.1
+- new URL
+- fine grained BuildRequires
+- xdg menu
+- manpage
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - use %%mkrel
+
+
+* Thu Jun 02 2005 Nicolas Lécureuil <neoclust@mandriva.org> 2.3-2mdk
+- Rebuild
+
+* Thu Apr 10 2003 HA Quôc-Viêt <viet@mandrakesoft.com> 2.3-1mdk
+- new release
+
+* Mon Feb 11 2002 HA Quôc-Viêt <viet@mandrakesoft.com> 2.2-2mdk
+- new URL
+- xpm converted to png
+- prefix changed from /usr/X11R6 to /usr
+- compile flags now works
+
+* Thu Jul 12 2001 HA Quôc-Viêt <viet@mandrakesoft.com> 2.2-1mdk
+- Source update
+
+* Wed Mar 28 2001 HA Quôc-Viêt <viet@mandrakesoft.com> 2.1-1mdk
+- Initial release.
+
