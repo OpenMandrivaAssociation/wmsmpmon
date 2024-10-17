@@ -7,7 +7,7 @@ License:	GPLv2+
 Group:		Graphical desktop/WindowMaker
 Source0:	wmSMPmon-%{version}.tar.gz
 Source1:	%{name}-icons.tar.bz2
-URL:		http://www.ribbrock.org/binabit/wmSMPmon/
+URL:		https://www.ribbrock.org/binabit/wmSMPmon/
 BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel
 BuildRequires:	libxau-devel
