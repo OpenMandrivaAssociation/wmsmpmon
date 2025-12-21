@@ -8,6 +8,7 @@ Group:		Graphical desktop/WindowMaker
 Source0:	wmSMPmon-%{version}.tar.gz
 Source1:	%{name}-icons.tar.bz2
 URL:		https://www.ribbrock.org/binabit/wmSMPmon/
+BuildRequires:	make
 BuildRequires:	libxpm-devel
 BuildRequires:	libxext-devel
 BuildRequires:	libxau-devel
